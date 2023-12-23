@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        body {
+            background-color: #547D54; /* Nouvelle couleur de fond verte */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            text-align: center;color: #FFFFFF; /* blanc */
+        }
+
+        .header_text {
+            color: #FFFFFF; /* blanc */
+            font-family: 'Montserrat', sans-serif;
+            animation: shakeAnimation 2s infinite;
+        }
+
+        @keyframes shakeAnimation {
+            0% {
+                transform: translateX(0);
+            }
+            25% {
+                transform: translateX(-5px);
+            }
+            50% {
+                transform: translateX(5px);
+            }
+            75% {
+                transform: translateX(-5px);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        .gif_container {
+            margin-top: 40px; /* Espace au-dessus de l'image */
+        }
+    </style>
+</head> 
+<body>
+    <div class="container">
+        <div>
+            <h1 class="header_text">Happy Birthday ALOUCH !</h1>
+        </div>
+         <div class="gif_container">
+        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDdtZ2JiZDR0a3lvMWF4OG8yc3p6Ymdvd3g2d245amdveDhyYmx6eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/cLS1cfxvGOPVpf9g3y/giphy.gif" alt="Cute animated illustration">
+    </div>
+    <p class="message">Un grand merci pour ton aide qui m'a permis de retrouver le goût de vivre à un moment donné.</p>
+</body> 
+</html>
+
